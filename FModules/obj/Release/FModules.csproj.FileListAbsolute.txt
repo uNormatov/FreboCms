@@ -1,0 +1,13 @@
+D:\Projects\FreboCms\version-1\trunk\FModules\obj\Release\FModules.csprojResolveAssemblyReference.cache
+D:\Projects\FreboCms\version-1\trunk\FModules\bin\Release\FModules.dll
+D:\Projects\FreboCms\version-1\trunk\FModules\bin\Release\FModules.pdb
+D:\Projects\FreboCms\version-1\trunk\FModules\bin\Release\FCore.dll
+D:\Projects\FreboCms\version-1\trunk\FModules\bin\Release\FDataProvider.dll
+D:\Projects\FreboCms\version-1\trunk\FModules\bin\Release\FUIControls.dll
+D:\Projects\FreboCms\version-1\trunk\FModules\bin\Release\FredCK.FCKeditorV2.dll
+D:\Projects\FreboCms\version-1\trunk\FModules\bin\Release\ICSharpCode.SharpZipLib.dll
+D:\Projects\FreboCms\version-1\trunk\FModules\bin\Release\FCore.pdb
+D:\Projects\FreboCms\version-1\trunk\FModules\bin\Release\FDataProvider.pdb
+D:\Projects\FreboCms\version-1\trunk\FModules\bin\Release\FUIControls.pdb
+D:\Projects\FreboCms\version-1\trunk\FModules\obj\Release\FModules.dll
+D:\Projects\FreboCms\version-1\trunk\FModules\obj\Release\FModules.pdb

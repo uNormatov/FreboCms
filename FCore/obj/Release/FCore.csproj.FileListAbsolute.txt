@@ -1,0 +1,4 @@
+D:\Projects\FreboCms\version-1\trunk\FCore\bin\Release\FCore.dll
+D:\Projects\FreboCms\version-1\trunk\FCore\bin\Release\FCore.pdb
+D:\Projects\FreboCms\version-1\trunk\FCore\obj\Release\FCore.dll
+D:\Projects\FreboCms\version-1\trunk\FCore\obj\Release\FCore.pdb

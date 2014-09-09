@@ -1,0 +1,9 @@
+D:\Projects\FreboCms\version-1\trunk\FVirtualPathProvider\bin\Debug\FVirtualPathProvider.dll
+D:\Projects\FreboCms\version-1\trunk\FVirtualPathProvider\bin\Debug\FVirtualPathProvider.pdb
+D:\Projects\FreboCms\version-1\trunk\FVirtualPathProvider\bin\Debug\FCore.dll
+D:\Projects\FreboCms\version-1\trunk\FVirtualPathProvider\bin\Debug\FDataProvider.dll
+D:\Projects\FreboCms\version-1\trunk\FVirtualPathProvider\bin\Debug\FCore.pdb
+D:\Projects\FreboCms\version-1\trunk\FVirtualPathProvider\bin\Debug\FDataProvider.pdb
+D:\Projects\FreboCms\version-1\trunk\FVirtualPathProvider\obj\Debug\FVirtualPathProvider.csprojResolveAssemblyReference.cache
+D:\Projects\FreboCms\version-1\trunk\FVirtualPathProvider\obj\Debug\FVirtualPathProvider.dll
+D:\Projects\FreboCms\version-1\trunk\FVirtualPathProvider\obj\Debug\FVirtualPathProvider.pdb

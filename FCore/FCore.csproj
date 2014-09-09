@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D495469E-1313-4ADA-99D5-3AA5802A5CE2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FCore</RootNamespace>
+    <AssemblyName>FCore</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class\ArticleInfo.cs" />
+    <Compile Include="Class\BlockInfo.cs" />
+    <Compile Include="Class\CommentBoxInfo.cs" />
+    <Compile Include="Class\PagesInRolesInfo.cs" />
+    <Compile Include="Class\UserProfileInfo.cs" />
+    <Compile Include="Class\RoleProfileInfo.cs" />
+    <Compile Include="Class\MenuItemsInRolesInfo.cs" />
+    <Compile Include="Class\MenuItemInfo.cs" />
+    <Compile Include="Class\MenuInfo.cs" />
+    <Compile Include="Class\LanguageInfo.cs" />
+    <Compile Include="Class\EventLogInfo.cs" />
+    <Compile Include="Class\FormInfo.cs" />
+    <Compile Include="Class\Poll\PollChoiceInfo.cs" />
+    <Compile Include="Class\Poll\PollInfo.cs" />
+    <Compile Include="Class\Poll\PollIpAddressInfo.cs" />
+    <Compile Include="Class\TransformationInfo.cs" />
+    <Compile Include="Class\FieldInfo.cs" />
+    <Compile Include="Class\ClassInfo.cs" />
+    <Compile Include="Class\ContentTypeInfo.cs" />
+    <Compile Include="Class\ListItemInfo.cs" />
+    <Compile Include="Class\ListInfo.cs" />
+    <Compile Include="Class\LayoutNBlockInfo.cs" />
+    <Compile Include="Class\PageNBlockInfo.cs" />
+    <Compile Include="Class\WebPartCategoryInfo.cs" />
+    <Compile Include="Class\LayoutWebPartZoneInfo.cs" />
+    <Compile Include="Class\LayoutCategoryInfo.cs" />
+    <Compile Include="Class\LogInfo.cs" />
+    <Compile Include="Class\PageInfo.cs" />
+    <Compile Include="Class\LayoutInfo.cs" />
+    <Compile Include="Class\QueryInfo.cs" />
+    <Compile Include="Class\SiteInfo.cs" />
+    <Compile Include="Class\WebPartInfo.cs" />
+    <Compile Include="Collection\FieldInfoCollection.cs" />
+    <Compile Include="Collection\ErrorInfoList.cs" />
+    <Compile Include="Collection\GoodDictionary.cs" />
+    <Compile Include="Collection\PairGoodCollection.cs" />
+    <Compile Include="Constant\SiteConstants.cs" />
+    <Compile Include="Enum\ErrorType.cs" />
+    <Compile Include="Enum\FormActionMode.cs" />
+    <Compile Include="Enum\FieldActionMode.cs" />
+    <Compile Include="Enum\HtmlTagType.cs" />
+    <Compile Include="Enum\ListControlType.cs" />
+    <Compile Include="Enum\FormControlViewMode.cs" />
+    <Compile Include="Enum\FormFieldType.cs" />
+    <Compile Include="Enum\DataFieldType.cs" />
+    <Compile Include="Enum\MenuPageOpenType.cs" />
+    <Compile Include="Enum\PollBlockMode.cs" />
+    <Compile Include="Enum\QueryParameterType.cs" />
+    <Compile Include="Enum\QueryType.cs" />
+    <Compile Include="Enum\StructureType.cs" />
+    <Compile Include="Helper\CacheHelper.cs" />
+    <Compile Include="Helper\FormHelper.cs" />
+    <Compile Include="Helper\MailHelper.cs" />
+    <Compile Include="Helper\RegexHelper.cs" />
+    <Compile Include="Helper\SiteHelper.cs" />
+    <Compile Include="Helper\SqlHelper.cs" />
+    <Compile Include="Helper\UzbKeywordHelper.cs" />
+    <Compile Include="Helper\ValidationHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Settings\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

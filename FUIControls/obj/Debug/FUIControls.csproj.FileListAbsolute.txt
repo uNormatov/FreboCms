@@ -1,0 +1,13 @@
+D:\Projects\FreboCms\version-1\trunk\FUIControls\bin\Debug\FUIControls.dll
+D:\Projects\FreboCms\version-1\trunk\FUIControls\bin\Debug\FUIControls.pdb
+D:\Projects\FreboCms\version-1\trunk\FUIControls\bin\Debug\FCore.dll
+D:\Projects\FreboCms\version-1\trunk\FUIControls\bin\Debug\FDataProvider.dll
+D:\Projects\FreboCms\version-1\trunk\FUIControls\bin\Debug\FredCK.FCKeditorV2.dll
+D:\Projects\FreboCms\version-1\trunk\FUIControls\bin\Debug\FVirtualPathProvider.dll
+D:\Projects\FreboCms\version-1\trunk\FUIControls\bin\Debug\ICSharpCode.SharpZipLib.dll
+D:\Projects\FreboCms\version-1\trunk\FUIControls\bin\Debug\FCore.pdb
+D:\Projects\FreboCms\version-1\trunk\FUIControls\bin\Debug\FDataProvider.pdb
+D:\Projects\FreboCms\version-1\trunk\FUIControls\bin\Debug\FVirtualPathProvider.pdb
+D:\Projects\FreboCms\version-1\trunk\FUIControls\obj\Debug\FUIControls.csprojResolveAssemblyReference.cache
+D:\Projects\FreboCms\version-1\trunk\FUIControls\obj\Debug\FUIControls.dll
+D:\Projects\FreboCms\version-1\trunk\FUIControls\obj\Debug\FUIControls.pdb

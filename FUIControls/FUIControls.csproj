@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F42D67E2-26A7-45EB-A20C-78FCB40E0A4B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FUIControls</RootNamespace>
+    <AssemblyName>FUIControls</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FredCK.FCKeditorV2">
+      <HintPath>..\FWeb\libs\FredCK.FCKeditorV2.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib">
+      <HintPath>..\FWeb\libs\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Adapter\FormRewriteControlAdapter.cs" />
+    <Compile Include="Adapter\RewriteFormHtmlTextWriter .cs" />
+    <Compile Include="Context\ContextStockHelper.cs" />
+    <Compile Include="Context\FContext.cs" />
+    <Compile Include="Context\RequestStockHelper.cs" />
+    <Compile Include="Context\StockHelperFunctions.cs" />
+    <Compile Include="Context\ThreadStockHelper.cs" />
+    <Compile Include="FormControl\AbsractBasicControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormControl\AbstractBasicUserControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormControl\CaptchaControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormControl\ContentTypeLookUp.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormControl\ContentTypeModel.cs" />
+    <Compile Include="FormControl\FromUserProfileControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormControl\IComponentControl.cs" />
+    <Compile Include="FormControl\ListLookUp.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormControl\MainForm.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormControl\ParameterGetterControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormControl\YesNoSelector.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormControl\YearSelector.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormControl\GuidGeneratorControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormControl\ImageSelectorControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormControl\FileUploader.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormControl\FckEditorControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormControl\DatePicker.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormControl\DateTimePicker.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FormControl\IValidatable.cs" />
+    <Compile Include="FormControl\TextBoxControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Helper\LanguageHelper.cs" />
+    <Compile Include="Helper\PortalHelper.cs" />
+    <Compile Include="Page\FAdminEditPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\FAdminPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\FPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PortalControl\AbstractControl.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PortalControl\FAbstractEvaluableTransformation.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PortalControl\FAbstractLayout.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PortalControl\FAbstractTransformation.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PortalControl\FPageWrapper.cs" />
+    <Compile Include="PortalControl\FPlaceHolder.cs" />
+    <Compile Include="PortalControl\FWebPart.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PortalControl\FWebPartZone.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PortalControl\FWebPartEdit.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings\CoreSettings.cs" />
+    <Compile Include="UIControl\ContentItemTemplate.cs" />
+    <Compile Include="UIControl\FEvaluableRepeater.cs" />
+    <Compile Include="UIControl\TranslationTemplate.cs" />
+    <Compile Include="UIControl\FDataList.cs" />
+    <Compile Include="UIControl\FPager.cs" />
+    <Compile Include="UIControl\FQueryDataSource .cs" />
+    <Compile Include="UIControl\FRepeater.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Script\core.js" />
+    <EmbeddedResource Include="Script\datepicker.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FCore\FCore.csproj">
+      <Project>{D495469E-1313-4ADA-99D5-3AA5802A5CE2}</Project>
+      <Name>FCore</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FDataProvider\FDataProvider.csproj">
+      <Project>{573C41AF-F726-4318-A0AA-64076B41B200}</Project>
+      <Name>FDataProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FVirtualPathProvider\FVirtualPathProvider.csproj">
+      <Project>{0C09AC12-EB1A-473C-AD85-ABC20AFBC2EB}</Project>
+      <Name>FVirtualPathProvider</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

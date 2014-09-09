@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCore", "FCore\FCore.csproj", "{D495469E-1313-4ADA-99D5-3AA5802A5CE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FDataProvider", "FDataProvider\FDataProvider.csproj", "{573C41AF-F726-4318-A0AA-64076B41B200}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FImportExport", "FImportExport\FImportExport.csproj", "{5071F1FB-DA5F-4EA9-9422-5EC25FF5972E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FModules", "FModules\FModules.csproj", "{E94AD2B8-09E8-4A7E-BB45-E80499DB218B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FUIControls", "FUIControls\FUIControls.csproj", "{F42D67E2-26A7-45EB-A20C-78FCB40E0A4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FVirtualPathProvider", "FVirtualPathProvider\FVirtualPathProvider.csproj", "{0C09AC12-EB1A-473C-AD85-ABC20AFBC2EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FWeb", "FWeb\FWeb.csproj", "{7D08F1A6-4F09-46B1-A0E0-C0C548033CBE}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = FreboCms.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D495469E-1313-4ADA-99D5-3AA5802A5CE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D495469E-1313-4ADA-99D5-3AA5802A5CE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D495469E-1313-4ADA-99D5-3AA5802A5CE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D495469E-1313-4ADA-99D5-3AA5802A5CE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{573C41AF-F726-4318-A0AA-64076B41B200}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{573C41AF-F726-4318-A0AA-64076B41B200}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{573C41AF-F726-4318-A0AA-64076B41B200}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{573C41AF-F726-4318-A0AA-64076B41B200}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5071F1FB-DA5F-4EA9-9422-5EC25FF5972E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5071F1FB-DA5F-4EA9-9422-5EC25FF5972E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5071F1FB-DA5F-4EA9-9422-5EC25FF5972E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5071F1FB-DA5F-4EA9-9422-5EC25FF5972E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E94AD2B8-09E8-4A7E-BB45-E80499DB218B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E94AD2B8-09E8-4A7E-BB45-E80499DB218B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E94AD2B8-09E8-4A7E-BB45-E80499DB218B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E94AD2B8-09E8-4A7E-BB45-E80499DB218B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F42D67E2-26A7-45EB-A20C-78FCB40E0A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42D67E2-26A7-45EB-A20C-78FCB40E0A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42D67E2-26A7-45EB-A20C-78FCB40E0A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42D67E2-26A7-45EB-A20C-78FCB40E0A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C09AC12-EB1A-473C-AD85-ABC20AFBC2EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C09AC12-EB1A-473C-AD85-ABC20AFBC2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C09AC12-EB1A-473C-AD85-ABC20AFBC2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C09AC12-EB1A-473C-AD85-ABC20AFBC2EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D08F1A6-4F09-46B1-A0E0-C0C548033CBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D08F1A6-4F09-46B1-A0E0-C0C548033CBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D08F1A6-4F09-46B1-A0E0-C0C548033CBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D08F1A6-4F09-46B1-A0E0-C0C548033CBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

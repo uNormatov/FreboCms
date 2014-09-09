@@ -1,0 +1,5 @@
+D:\Projects\FreboCms\version-1\trunk\FCore\bin\Debug\FCore.dll
+D:\Projects\FreboCms\version-1\trunk\FCore\bin\Debug\FCore.pdb
+D:\Projects\FreboCms\version-1\trunk\FCore\obj\Debug\FCore.dll
+D:\Projects\FreboCms\version-1\trunk\FCore\obj\Debug\FCore.pdb
+D:\Projects\FreboCms\version-1\trunk\FCore\obj\Debug\FCore.csprojResolveAssemblyReference.cache

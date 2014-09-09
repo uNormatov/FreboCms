@@ -1,0 +1,9 @@
+D:\Projects\FreboCms\version-1\trunk\FImportExport\bin\Debug\FImportExport.dll
+D:\Projects\FreboCms\version-1\trunk\FImportExport\bin\Debug\FImportExport.pdb
+D:\Projects\FreboCms\version-1\trunk\FImportExport\bin\Debug\FCore.dll
+D:\Projects\FreboCms\version-1\trunk\FImportExport\bin\Debug\FDataProvider.dll
+D:\Projects\FreboCms\version-1\trunk\FImportExport\bin\Debug\FCore.pdb
+D:\Projects\FreboCms\version-1\trunk\FImportExport\bin\Debug\FDataProvider.pdb
+D:\Projects\FreboCms\version-1\trunk\FImportExport\obj\Debug\FImportExport.csprojResolveAssemblyReference.cache
+D:\Projects\FreboCms\version-1\trunk\FImportExport\obj\Debug\FImportExport.dll
+D:\Projects\FreboCms\version-1\trunk\FImportExport\obj\Debug\FImportExport.pdb

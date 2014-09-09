@@ -1,0 +1,7 @@
+D:\Projects\FreboCms\version-1\trunk\FDataProvider\bin\Debug\FDataProvider.dll
+D:\Projects\FreboCms\version-1\trunk\FDataProvider\bin\Debug\FDataProvider.pdb
+D:\Projects\FreboCms\version-1\trunk\FDataProvider\bin\Debug\FCore.dll
+D:\Projects\FreboCms\version-1\trunk\FDataProvider\bin\Debug\FCore.pdb
+D:\Projects\FreboCms\version-1\trunk\FDataProvider\obj\Debug\FDataProvider.csprojResolveAssemblyReference.cache
+D:\Projects\FreboCms\version-1\trunk\FDataProvider\obj\Debug\FDataProvider.dll
+D:\Projects\FreboCms\version-1\trunk\FDataProvider\obj\Debug\FDataProvider.pdb

@@ -1,0 +1,47 @@
+﻿.text-white a
+{
+    color: white;
+}
+
+.navbar .btn
+{
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+
+.label
+{
+    margin-left: 3px;
+}
+
+a.tag-size1
+{
+    font-size: 10px;
+    color: #FF0000;
+}
+
+a.tag-size2
+{
+    font-size: 15px;
+    color: #993333;
+}
+
+a.tag-size3
+{
+    font-size:20px;
+    color: #0000FF;
+}
+
+a.tag-size5
+{
+    font-size: 25px;
+    color: #009900;
+}
+
+pre {
+    padding: 0px;
+}
+
+.table-formula {
+    font-size: 15px!important;
+}
