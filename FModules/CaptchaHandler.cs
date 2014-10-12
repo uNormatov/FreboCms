@@ -17,6 +17,7 @@ namespace FModules
             get { return true; }
         }
 
+		//process request
         public void ProcessRequest(HttpContext context)
         {
             RenderImage(context);
